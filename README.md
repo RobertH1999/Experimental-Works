@@ -1,2 +1,4 @@
 # Experimental-Works
-This is just a repository for random works I feel like doing on the fly.
+One of the experiments I'm doing is create a Weeby Site and edit using js and CSS
+
+Other experiments more to come. 
