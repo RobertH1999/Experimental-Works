@@ -1,26 +1,26 @@
 @font-face {
-  font-family: 'Josefin Sans';
+  font-family: 'Papyrus';
   src: url('fonts/josefinsans-italic-webfont.eot');
   src: url('fonts/josefinsans-italic-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/josefinsans-italic-webfont.woff2') format('woff2'), url('fonts/josefinsans-italic-webfont.woff') format('woff'), url('fonts/josefinsans-italic-webfont.ttf') format('truetype'), url('fonts/josefinsans-italic-webfont.svg#Josefin Sans') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Josefin Sans';
+  font-family: 'Papyrus';
   src: url('fonts/josefinsans-regular-webfont.eot');
   src: url('fonts/josefinsans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/josefinsans-regular-webfont.woff2') format('woff2'), url('fonts/josefinsans-regular-webfont.woff') format('woff'), url('fonts/josefinsans-regular-webfont.ttf') format('truetype'), url('fonts/josefinsans-regular-webfont.svg#Josefin Sans') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Josefin Sans';
+  font-family: 'Papyrus';
   src: url('fonts/josefinsans-semibold-webfont.eot');
   src: url('fonts/josefinsans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/josefinsans-semibold-webfont.woff2') format('woff2'), url('fonts/josefinsans-semibold-webfont.woff') format('woff'), url('fonts/josefinsans-semibold-webfont.ttf') format('truetype'), url('fonts/josefinsans-semibold-webfont.svg#josefin_sanssemibold') format('svg');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Josefin Sans';
+  font-family: 'Comic Sans';
   src: url(images/'josefinsans-thin-webfont.eot');
   src: url(images/'josefinsans-thin-webfont.eot?#iefix') format('embedded-opentype'), url(images/'josefinsans-thin-webfont.woff2') format('woff2'), url(images/'josefinsans-thin-webfont.woff') format('woff'), url(images/'josefinsans-thin-webfont.ttf') format('truetype'), url(images/'josefinsans-thin-webfont.svg#josefin_sansthin') format('svg');
   font-weight: lighter;
@@ -74,7 +74,7 @@ h2 {
   padding-bottom: 15px;
   color: @titleColor;
   letter-spacing: 0.03em;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Papyrus', sans-serif;
   font-weight: bold;
   font-size: 32px;
   line-height: 1.3em;
@@ -94,7 +94,7 @@ blockquote {
   border-left: 1px solid @textColor !important;
   font-style: normal !important;
   letter-spacing: 0.05em;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Papyrus', sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 25px;
@@ -534,7 +534,7 @@ body.wsite-editor:not(.w-navpane-is-forced) .nav-wrap {
 }
 .topbar .wsite-search {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: left;
   width: 100px;
   border-left: 1px solid rgba(255, 255, 255, 0.15);
   cursor: pointer;
@@ -1109,8 +1109,8 @@ body.w-navpane-is-forced .banner-wrap .container {
 .fancybox-title {
   color: white;
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: bold;
-  font-size: 18px;
+  font-weight: italic;
+  font-size: 20px;
   line-height: normal;
 }
 .fancybox-close,
